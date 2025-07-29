@@ -7,11 +7,7 @@
 
 ## Problem Statement
 
-The positive integer `a` is a divisor of the positive integer `b` if and only if there exists a positive integer `c` such that:
-
-```
-a × c = b
-```
+The positive integer `a` is a divisor of the positive integer `b` if and only if there exists a positive integer `c` such that: a × c = b
 
 King Astyages defines a positive integer `x` as extraordinarily nice if the number of its even divisors is equal to the number of its odd divisors.
 
