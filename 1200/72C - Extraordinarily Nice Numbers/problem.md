@@ -1,7 +1,7 @@
 # Problem C: Extraordinarily Nice Numbers
 
-**Time limit per test:** 2 seconds  
-**Memory limit per test:** 256 megabytes  
+Time limit per test: 2 seconds  
+Memory limit per test: 256 megabytes  
 
 ---
 
