@@ -57,3 +57,6 @@ no
 ## Note
 
 To solve this problem, count all positive divisors of `x`, and separate them into even and odd divisors. If the counts are equal, `x` is extraordinarily nice.
+
+## Source
+[View the original problem on Codeforces](https://codeforces.com/problemset/problem/72/C)
