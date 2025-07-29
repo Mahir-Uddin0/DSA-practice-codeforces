@@ -7,14 +7,14 @@ Students of group 199 have written their lectures dismally. Now an exam on Mathe
 
 Each student wrote exactly one notebook of lecture notes. We know that the students agreed to act by the following algorithm:
 
-on the first day of revising each student studies his own Mathematical Analysis notes,  
-in the morning of each following day each student gives the notebook to his best friend and takes a notebook from the student who calls him the best friend.  
+- on the first day of revising each student studies his own Mathematical Analysis notes,  
+- In the morning of each following day each student gives the notebook to his best friend and takes a notebook from the student who calls him the best friend.  
 Thus, on the second day the student p[i] (1 ≤ i ≤ n) studies the i-th student's notes, on the third day the notes go to student p[p[i]] and so on. Due to some characteristics of the boys' friendship (see paragraph 1), each day each student has exactly one notebook to study.
 
 You are given two sequences that describe the situation on the third and fourth days of revising:
 
-a1, a2, ..., an, where ai means the student who gets the i-th student's notebook on the third day of revising;  
-b1, b2, ..., bn, where bi means the student who gets the i-th student's notebook on the fourth day of revising.  
+- a1, a2, ..., an, where ai means the student who gets the i-th student's notebook on the third day of revising;  
+- b1, b2, ..., bn, where bi means the student who gets the i-th student's notebook on the fourth day of revising.  
 You do not know array p, that is you do not know who is the best friend to who. Write a program that finds p by the given sequences a and b.
 
 ---
