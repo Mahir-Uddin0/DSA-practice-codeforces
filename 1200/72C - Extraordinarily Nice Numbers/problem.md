@@ -8,13 +8,11 @@
 ## Problem Statement
 
 The positive integer `a` is a divisor of the positive integer `b` if and only if there exists a positive integer `c` such that: a × c = b
+King Astyages thinks a positive integer x is extraordinarily nice if the number of its even divisors is equal to the number of its odd divisors.
 
-King Astyages defines a positive integer `x` as extraordinarily nice if the number of its even divisors is equal to the number of its odd divisors.
+For example 3 has two positive divisors 3 and 1, both of which are odd, so 3 is not extraordinarily nice. On the other hand 2 is only divisible by 2 and 1, so it has one odd and one even divisor. Therefore 2 is extraordinarily nice.
 
-### Examples:
-
-- The number `3` has two positive divisors: `1` and `3`, both of which are odd. So, `3` is not extraordinarily nice.
-- The number `2` has two divisors: `1` (odd) and `2` (even). Since there's one even and one odd divisor, `2` is extraordinarily nice.
+Given a positive integer x determine whether it's extraordinarily nice.
 
 ---
 
