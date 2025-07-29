@@ -1,3 +1,9 @@
+---
+
+## Source
+
+[View the original problem on Codeforces](https://codeforces.com/problemset/problem/180/F)
+
 # F. Mathematical Analysis Rocks!
 
 **time limit per test** 1 second  
