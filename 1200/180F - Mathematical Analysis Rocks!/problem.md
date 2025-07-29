@@ -1,7 +1,7 @@
 # F. Mathematical Analysis Rocks!
 
-**time limit per test** 1 second  
-**memory limit per test** 256 megabytes  
+time limit per test 1 second  
+memory limit per test 256 megabytes  
 
 Students of group 199 have written their lectures dismally. Now an exam on Mathematical Analysis is approaching and something has to be done asap (that is, quickly). Let's number the students of the group from 1 to n. Each student i (1 ≤ i ≤ n) has a best friend p[i] (1 ≤ p[i] ≤ n). In fact, each student is a best friend of exactly one student. In other words, all p[i] are different. It is possible that the group also has some really "special individuals" for who i = p[i].
 
