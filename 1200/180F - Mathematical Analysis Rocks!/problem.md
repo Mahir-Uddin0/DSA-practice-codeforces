@@ -1,9 +1,3 @@
----
-
-## Source
-
-[View the original problem on Codeforces](https://codeforces.com/problemset/problem/180/F)
-
 # F. Mathematical Analysis Rocks!
 
 **time limit per test** 1 second  
@@ -77,3 +71,8 @@ Print sequence n of different integers p[1], p[2], ..., p[n] (1 ≤ p[
 ```
 2 1
 ```
+
+---
+
+## Source
+[View the original problem on Codeforces](https://codeforces.com/problemset/problem/180/F)
