@@ -1,7 +1,7 @@
 # A. Trading Business
 
-**time limit per test** 2 seconds  
-**memory limit per test** 256 megabytes  
+time limit per test 2 seconds  
+memory limit per test 256 megabytes  
 
 To get money for a new aeonic blaster, ranger Qwerty decided to engage in trade for a while. He wants to buy some number of items (or probably not to buy anything at all) on one of the planets, and then sell the bought items on another planet. Note that this operation is not repeated, that is, the buying and the selling are made only once. To carry out his plan, Qwerty is going to take a bank loan that covers all expenses and to return the loaned money at the end of the operation (the money is returned without the interest). At the same time, Querty wants to get as much profit as possible.
 
