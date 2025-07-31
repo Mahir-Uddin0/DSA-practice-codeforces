@@ -68,3 +68,7 @@ In the third test case, Cirno can choose not to operate, so the answer is 1001.
 
 ---
 
+## Source
+
+[View the original problem on Codeforces](https://codeforces.com/contest/2062/problem/C)
+
