@@ -1,7 +1,7 @@
 # C. Cirno and Operations
 
-**time limit per test** 2 seconds  
-**memory limit per test** 512 megabytes  
+time limit per test 2 seconds  
+memory limit per test 512 megabytes  
 
 Cirno has a sequence a of length n. She can perform either of the following two operations for any (possibly, zero) times unless the current length of a is 1:
 
