@@ -40,4 +40,4 @@ Output
 1
 ```
 
-[Link to the problem]()
+[Link to the problem](https://codeforces.com/contest/1352/problem/C)
