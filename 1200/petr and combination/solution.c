@@ -11,7 +11,6 @@ int combination(int *arr, int start, int c, int sum){
     }
     return 0;
 }
-
 int main(){
     int result = 0;
     scanf("%d",&n);
@@ -20,7 +19,6 @@ int main(){
         scanf("%d",&arr[i]);
         total+=arr[i];
     }
-    printf("\n\n");
     if(total%360==0 || combination(arr,0,n/2,0)) printf("YES");
     else printf("NO");
 
