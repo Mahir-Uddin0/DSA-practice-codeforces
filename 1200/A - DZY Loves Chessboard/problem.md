@@ -1,7 +1,11 @@
 # A. DZY Loves Chessboard
 
-time limit per test1 second
-memory limit per test 256 megabytes
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+---
+
+## Problem Statement
 
 DZY loves chessboard, and he enjoys playing with it.
 
@@ -9,17 +13,23 @@ He has a chessboard of n rows and m columns. Some cells of the chessboard are ba
 
 You task is to find any suitable placement of chessmen on the given chessboard.
 
+---
+
 ## Input
 
 The first line contains two space-separated integers n and m (1 ≤ n, m ≤ 100).
 
 Each of the next n lines contains a string of m characters: the j-th character of the i-th string is either "." or "-". A "." means that the corresponding cell (in the i-th row and the j-th column) is good, while a "-" means it is bad.
 
+---
+
 ## Output
 
 Output must contain n lines, each line must contain a string of m characters. The j-th character of the i-th string should be either "W", "B" or "-". Character "W" means the chessman on the cell is white, "B" means it is black, "-" means the cell is a bad cell.
 
 If multiple answers exist, print any of them. It is guaranteed that at least one answer exists.
+
+---
 
 ## Examples
 
