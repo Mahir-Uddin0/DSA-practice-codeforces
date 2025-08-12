@@ -1,6 +1,6 @@
 # A. DZY Loves Chessboard
 
-time limit per test: 1 second\n
+time limit per test: 1 second<br>
 memory limit per test: 256 megabytes
 
 ---
