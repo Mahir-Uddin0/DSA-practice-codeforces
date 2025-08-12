@@ -63,8 +63,12 @@ B-B
 ```
 
 ## Note
+
 In the first sample, DZY puts a single black chessman. Of course putting a white one is also OK.
 
 In the second sample, all 4 cells are good. No two same chessmen share an edge in the sample output.
 
 In the third sample, no good cells are adjacent. So you can just put 3 chessmen, no matter what their colors are.
+
+## Source
+[View the original problem on Codeforces](https://codeforces.com/contest/445/problem/A)
