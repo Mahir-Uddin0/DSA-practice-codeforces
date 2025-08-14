@@ -22,3 +22,29 @@ For each test case, output the number of pairs of indices (i,j) such that i < j 
 ## Example
 
 ### Input
+```
+3
+2
+3 1
+3
+6 1 5
+5
+3 1 5 9 2
+```
+
+### Output
+```
+1
+1
+3
+```
+
+## Note
+
+For the first test case, the only pair that satisfies the constraints is (1,2), as a1 ⋅ a2 = 1 + 2 = 3.
+
+For the second test case, the only pair that satisfies the constraints is (2,3).
+
+For the third test case, the pairs that satisfy the constraints are (1,2), (1,5), and (2,3).
+
+[View the original problem on Codeforces](https://codeforces.com/contest/1541/problem/B)
