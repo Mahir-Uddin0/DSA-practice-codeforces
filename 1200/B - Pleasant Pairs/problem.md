@@ -1,6 +1,7 @@
-B. Pleasant Pairs
-time limit per test2 seconds
+# B. Pleasant Pairs
+time limit per test2 seconds-
 memory limit per test256 megabytes
+
 You are given an array a1,a2,…,an
  consisting of n
  distinct integers. Count the number of pairs of indices (i,j)
