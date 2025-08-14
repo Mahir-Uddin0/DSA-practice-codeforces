@@ -39,6 +39,10 @@ Print a single integer — the minimum sum in rubles that Ann will need to spend
 
 ## Note
 
-In the first sample one of the optimal solutions is: each time buy a one ride ticket. There are other optimal solutions. For example, buy three m ride tickets.
+For the first test case, the only pair that satisfies the constraints is (1,2), as a1 ⋅ a2 = 1 + 2 = 3.
 
-[View the original problem on Codeforces](https://codeforces.com/contest/466/problem/A)
+For the second test case, the only pair that satisfies the constraints is (2,3).
+
+For the third test case, the pairs that satisfy the constraints are (1,2), (1,5), and (2,3).
+
+[View the original problem on Codeforces](https://codeforces.com/contest/1541/problem/B)
