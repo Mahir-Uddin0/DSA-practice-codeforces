@@ -36,16 +36,19 @@ For each test case, output the number of interesting ratios F(a,b) for pairs sat
 ## Examples
 
 ### Input
+```
 4
 5
 10
 34
 10007
-
+```
 ### Output
+```
 4
 11
 49
 24317
+```
 
 [View the original problem on Codeforces](https://codeforces.com/contest/2091/problem/E)
