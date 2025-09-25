@@ -22,25 +22,35 @@ Print a single line with the winner's name. If Alice wins print "Alice", otherwi
 
 ## Examples  
 
+**Input**  
 ```
-Input
 2
 2 3
-Output
+```  
+**Output**  
+```
 Alice
+```  
 
-Input
+**Input**  
+```
 2
 5 3
-Output
+```  
+**Output**  
+```
 Alice
+```  
 
-Input
+**Input**  
+```
 3
 5 6 7
-Output
-Bob
+```  
+**Output**  
 ```
+Bob
+```  
 
 ### Note  
 Consider the first test sample. Alice moves first, and the only move she can do is to choose 2 and 3, then to add 1 to the set. Next Bob moves, there is no valid move anymore, so the winner is Alice.  
