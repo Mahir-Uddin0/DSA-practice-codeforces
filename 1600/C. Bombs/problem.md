@@ -1,7 +1,8 @@
-# Bombs
-
-time limit per test2 seconds  
-memory limit per test256 megabytes  
+<p align="center">
+<b>C. Bombs</b><br>
+time limit per test 2 seconds<br>
+memory limit per test 256 megabytes
+</p>  
 
 You've got a robot, its task is destroying bombs on a square plane. Specifically, the square plane contains n bombs, the i-th bomb is at point with coordinates (xi, yi). We know that no two bombs are at the same point and that no bomb is at point with coordinates (0, 0). Initially, the robot is at point with coordinates (0, 0). Also, let's mark the robot's current position as (x, y). In order to destroy all the bombs, the robot can perform three types of operations:
 
@@ -70,3 +71,5 @@ On the next lines print the descriptions of these **k** operations. If there are
 1 5 D
 3
 ```
+
+[View the original problem on Codeforces](https://codeforces.com/contest/350/problem/C)
