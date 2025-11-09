@@ -1,58 +1,36 @@
-# E. Adjacent XOR
+<p align="center">
 
-You are given an array **a** of length **n**.  
-For each index `i` such that `1 ≤ i < n`, you may perform the following operation **at most once**:
+# E. Adjacent XOR  
+time limit per test : 2 seconds  
+memory limit per test: 256 megabytes  
 
+</p>
+
+You're given an array a of length n. For each index i such that 1≤i<n, you can perform the following operation at most once:
+
+Assign ai:=ai⊕ai+1, where ⊕ denotes the bitwise XOR operation.  
+You can choose indices and perform the operations in any sequential order.
+
+Given another array b of length n, determine if it is possible to transform a to b.
+
+## Input
+Each test contains multiple test cases. The first line contains the number of test cases t (1≤t≤10⁴). The description of the test cases follows.
+
+The first line of each test case contains one integer n (2≤n≤2⋅10⁵).
+
+The second line of each test case contains n integers a1,a2,…,an (0≤ai<2³⁰).
+
+The third line of each test case contains n integers b1,b2,…,bn (0≤bi<2³⁰).
+
+It is guaranteed that the sum of n over all test cases does not exceed 2⋅10⁵.
+
+## Output
+For each test case, output "YES" (quotes excluded) if a can be transformed to b; otherwise, output "NO". You can output the answer in any case (upper or lower). For example, the strings "yEs", "yes", "Yes", and "YES" will be recognized as positive responses.
+
+## Example
+
+### Input
 ```
-a[i] = a[i] XOR a[i+1]
-```
-
-You may choose the indices and perform the operations in **any sequential order**.
-
-Given another array **b** of length **n**, determine whether it is possible to transform `a` into `b`.
-
----
-
-## ✅ Input Format
-- Multiple test cases  
-- `t` — number of test cases (1 ≤ t ≤ 10⁴)
-- Each test case:
-  - `n` — size of arrays (2 ≤ n ≤ 2⋅10⁵)
-  - `a1, a2, ..., an` — array `a` (0 ≤ ai < 2³⁰)
-  - `b1, b2, ..., bn` — array `b` (0 ≤ bi < 2³⁰)
-
-Total `n` across tests ≤ 2⋅10⁵.
-
----
-
-## ✅ Output
-For each test case, print:
-
-```
-YES
-```
-
-if it is possible to transform `a` to `b`, otherwise print:
-
-```
-NO
-```
-
-(Case insensitive output allowed)
-
----
-
-## 💡 Idea
-
-For each `i`, you may apply XOR once: `a[i] = a[i] XOR a[i+1]`.  
-You must determine if sequence `a` can become `b`.
-
----
-
-## 📎 Example
-
-### **Input**
-```text
 7
 5
 1 2 3 4 5
@@ -77,8 +55,8 @@ You must determine if sequence `a` can become `b`.
 11 10
 ```
 
-### **Output**
-```text
+### Output
+```
 YES
 NO
 NO
@@ -88,34 +66,9 @@ NO
 NO
 ```
 
----
+### Note
+In the first test case, you can perform the operations in the following order:
 
-## 📝 Explanation Example
-
-For test case 1:
-
-Initial array:
-
-```
-[1, 2, 3, 4, 5]
-```
-
-Operations:
-
-```
-i = 3 → a[3] = 3 XOR 4 = 7 → [1, 2, 7, 4, 5]
-i = 4 → a[4] = 4 XOR 5 = 1 → [1, 2, 7, 1, 5]
-i = 1 → a[1] = 1 XOR 2 = 3 → [3, 2, 7, 1, 5]
-```
-
-Final array becomes:
-
-```
-[3, 2, 7, 1, 5]
-```
-
-Which matches **b**, so the answer is `YES`.
-
----
-
-
+Choose index i=3 and assign a3:=a3⊕a4=7, and a becomes [1,2,7,4,5].  
+Choose index i=4 and assign a4:=a4⊕a5=1, and a becomes [1,2,7,1,5].  
+Choose index i=1 and assign a1:=a1⊕a2=3, and a becomes [3,2,7,1,5].
