@@ -6,39 +6,22 @@ memory limit per test: 256 megabytes
 
 </p>
 
-You are given n  
-casinos, numbered from 1  
-to n. Each casino is described by three integers: li,  
-ri,  
-and reali  
-(li ≤ reali ≤ ri). You initially have k  
-coins.
+You are given n casinos, numbered from 1 to n. Each casino is described by three integers: li, ri, and reali (li ≤ reali ≤ ri). You initially have k coins.
 
-You can play at casino i  
-only if the current number of coins x  
-satisfies li ≤ x ≤ ri.  
-After playing, your number of coins becomes reali.
+You can play at casino i only if the current number of coins x satisfies li ≤ x ≤ ri. After playing, your number of coins becomes reali.
 
 You can visit the casinos in any order and are not required to visit all of them. Each casino can be visited no more than once.
 
 Your task is to find the maximum final number of coins you can obtain.
 
 ## Input
-The first line contains a single integer t  
-(1 ≤ t ≤ 10⁴) — the number of test cases.
+The first line contains a single integer t (1 ≤ t ≤ 10⁴) — the number of test cases.
 
-The first line of each test case contains two integers n  
-and k  
-(1 ≤ n ≤ 10⁵, 0 ≤ k ≤ 10⁹).
+The first line of each test case contains two integers n and k (1 ≤ n ≤ 10⁵, 0 ≤ k ≤ 10⁹).
 
-This is followed by n  
-lines. In the i-th line, there are three integers li,  
-ri,  
-reali  
-(0 ≤ li ≤ reali ≤ ri ≤ 10⁹).
+This is followed by n lines. In the i-th line, there are three integers li, ri, reali (0 ≤ li ≤ reali ≤ ri ≤ 10⁹).
 
-It is guaranteed that the sum of all n  
-across all test cases does not exceed 10⁵.
+It is guaranteed that the sum of all n across all test cases does not exceed 10⁵.
 
 ## Output
 For each test case, output a single integer — the maximum number of coins you can obtain after optimally choosing the order of visiting the casinos.
@@ -74,11 +57,12 @@ For each test case, output a single integer — the maximum number of coins you 
 ```
 
 ## Note
-In the first test case, you can first play at the 2-nd casino. After that, you will have 2 coins.  
-Then you can play at the 1-st casino, and the number of coins will increase to 3.  
-Finally, after playing at the 3-rd casino, you will have 10 coins — this is the maximum possible amount.
+In the first test case, you can first play at the 2-nd casino. After that, you will have 2 coins. Then you can play at the 1-st casino, and the number of coins will increase to 3. Finally, after playing at the 3-rd casino, you will have 10 coins — this is the maximum possible amount.
 
 In the second test case, you have no money, so you cannot earn more.
 
 In the fourth test case, it is beneficial to play at the 2-nd casino right away and earn 4 coins.
 
+## Source
+
+[View the original problem on Codeforces](https://codeforces.com/contest/2126/problem/D)
