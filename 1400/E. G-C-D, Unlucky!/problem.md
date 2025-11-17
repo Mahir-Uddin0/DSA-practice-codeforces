@@ -63,12 +63,10 @@ NO
 ```
 
 ## Note
-For the first test case, a possible array is:  
-[72, 24, 3, 6, 12, 144]
+For the first test case, a possible array is: [72, 24, 3, 6, 12, 144]
 
 For the second test case, such arrays do not exist.
 
-For the third test case, a valid array is:  
-[125, 125, 125, 25, 75]
+For the third test case, a valid array is: [125, 125, 125, 25, 75]
 
 [View the original problem on Codeforces](https://codeforces.com/contest/2126/problem/E)
