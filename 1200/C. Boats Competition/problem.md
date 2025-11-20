@@ -29,25 +29,29 @@ the **maximum** number of teams that can be formed for some chosen total weight 
 ### Example  
 
 **Input**
-5\n
-5\n
-1 2 3 4 5\n
-8\n
-6 6 6 6 6 6 8 8\n
-8\n
-1 2 2 1 2 1 1 2\n
-3\n
-1 3 3\n
-6\n
-1 1 3 4 2 2\n
+```
+5
+5
+1 2 3 4 5
+8
+6 6 6 6 6 6 8 8
+8
+1 2 2 1 2 1 1 2
+3
+1 3 3
+6
+1 1 3 4 2 2
+```
 
 
 **Output**
-2\n
-3\n
-4\n
-1\n
-2\n
+```
+2
+3
+4
+1
+2
+```
 
 ### Note  
 - In test case 1, choosing **s = 6** gives 2 teams: (1,5) and (2,4).  
