@@ -56,6 +56,9 @@ Consider the first test case. The products can be obtained as follows:
 2 can be obtained by selecting a₂.  
 3 can be obtained by selecting a₁.  
 4 can be obtained by selecting a₂ twice.  
+
+[View the original problem on Codeforces](https://codeforces.com/contest/2193/problem/E)
+
 5 cannot be obtained.  
 6 can be obtained by selecting a₇.  
 7 can be obtained by selecting a₅.  
