@@ -1,3 +1,30 @@
+# First Solution
+t = int(input())
+
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int, input().split()))
+    arr.sort(reverse = True)
+    singles, ones = 0, 0
+
+    for i in range(n):
+        if arr[i] > 3:
+            singles += (arr[i] - 2) // 2
+        elif arr[i] == 1:
+            ones += 1
+    
+    if ones == n-1:
+            singles += 1
+        
+    ans = sum(arr) - ones + min(singles, ones)
+    
+    if ans < 3:
+        print("0")
+    else:
+        print(ans)
+
+
+# Second Solution
 t = int(input())
 
 for _ in range(t):
